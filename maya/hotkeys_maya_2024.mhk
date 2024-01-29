@@ -371,12 +371,6 @@ nameCommand
 	-command ("PolyCreaseTool")
 	PolyCreaseToolNameCommand;
 
-nameCommand
-	-annotation "dR_softSelStickyPressNameCommand"
-	-sourceType "mel"
-	-command ("dR_softSelStickyPress")
-	dR_softSelStickyPressNameCommand;
-
 //
 // The user hotkeys
 //
@@ -463,8 +457,6 @@ hotkey -keyShortcut "x" -cmd -sht -name ("dR_multiCutToolNameCommand");
 hotkey -keyShortcut "f" -ctl -alt -name ("PolyEditEdgeFlowNameCommand");
 hotkey -keyShortcut "w" -sht -name ("");
 hotkey -keyShortcut "d" -cmd -name ("duplicatewithrenameNameCommand");
-hotkey -keyShortcut "b" -name ("dR_softSelStickyPressNameCommand");
-hotkey -keyShortcut "b" -releaseName ("");
 hotkey -keyShortcut "F11" -name ("");
 hotkey -keyShortcut "b" -ctl -name ("BridgeOrFillNameCommand");
 hotkey -keyShortcut "'" -ctl -name ("ToggleModelingToolkitNameCommand");
