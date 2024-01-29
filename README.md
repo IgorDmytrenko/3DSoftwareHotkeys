@@ -6,14 +6,14 @@
 | `2`                             | Edge mode                          | `SelectEdgeMask`      |
 | `3`                             | Face mode                          | `SelectFacetMask`      |
 | `4`                             | Object mode                        | `SelectToggleMode`      |
-| `5`                             | Uv mode                            | ``      |
+| `5`                             | Uv mode                            | `SelectFacetMask`      |
 | `Ctrl-1`                        | Convert to Vertices                | `ConvertSelectionToVertices`      |
 | `Ctrl-2`                        | Convert to Edges                   | `ConvertSelectionToEdges`      |
 | `Ctrl-3`                        | Convert to Faces                   | `ConvertSelectionToFeces`      |
 | `Ctrl-5`                        | Convert to UV                      | `ConvertSelectionToUVs`      |
 | `Shift-1`                       | Smooth OFF                         | `LowQualityDisplay`      |
 | `Shift-2`                       | Smooth ON                          | `HighQualityDisplay`      |
-| `alt | option + q`              | Isolate mode                       | `ToggleIsolateSelect`         |
+| `alt / option + q`              | Isolate mode                       | `ToggleIsolateSelect`         |
 | `ctrl + l`                      | Tool setting window                | `ToolSettingsWindow`        |
 | `o`                             | Outliner                           | `OutlinerWindow`        |
 | `,`                             | Toggle shelf                         | `ToggleShelf`       |
@@ -24,14 +24,14 @@
 | `Ctrl-Shift-x`                  | Knife                              | `dR_multiCutTool`      |
 | `Ctrl-Shift-q`                  | Multi-cut / Quad tool              | `dR_quadDrawTool`      |
 | `hold ctrl - shit move ELEMENT` | Slide edge \| vertex \| along edge |  `SlideEdgeTool`       |
-| `shift - alt | option - d `     | Detach edge                        |  `DetachComponent`       |
+| ` shift - alt / option - d`     | Detach edge                        |  `DetachComponent`       |
 | `ctrl - b `                     | Bridge tool                        |   `BridgeOrFill`      |
-| `alt | option - b`              | Bevel tool                         |   `Bevel`      |
-| `alt | option - f `             | Edge flow                          |   `PolyEditEdgeFlow`      |
+| `alt / option - b`              | Bevel tool                         |   `Bevel`      |
+| `alt / option - f `             | Edge flow                          |   `PolyEditEdgeFlow`      |
 | `ctrl - shift - e`              | Crease tool                        |   `PolyCreaseTool`      |
 |                                 |                                    |         |
 | `command - shift - f`           | Freeze xfrom                       |  `FreezeTransformations`       |
-| `alt | option - d`              | Delete history                     |  `DeleteHistory`       |
+| `alt / option - d`              | Delete history                     |  `DeleteHistory`       |
 | `ctrl - c`                      | Center Pivot                       |  `CenterPivot`      |
 | `ctrl - shift - c`              | Bake Pivot                         |  `BakeCustomPivot`       |
 | `ctrl - d`                      | Duplicate                          |   `DuplicateWithTransform`      |
