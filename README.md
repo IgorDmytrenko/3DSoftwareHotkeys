@@ -19,7 +19,7 @@
 | `,`                             | Toggle shelf                         | `ToggleShelf`       |
 | `.`                             | Toggle status line                   |  `ToggleStatusLine`       |
 | `\`                             | Pan and zoom                       |   `TogglePanZoomPress`      |
-| `hold \`                        | Pan zoom in / zoom out             |    `TogglePanZoomPress`     |
+| `hold \ `                        | Pan zoom in / zoom out             |    `TogglePanZoomPress`     |
 |                                 |                                    |         |
 | `Ctrl-Shift-x`                  | Knife                              | `dR_multiCutTool`      |
 | `Ctrl-Shift-q`                  | Multi-cut / Quad tool              | `dR_quadDrawTool`      |
