@@ -36,6 +36,7 @@
 | `ctrl - shift - c`              | Bake Pivot                         |  `BakeCustomPivot`       |
 | `ctrl - d`                      | Duplicate                          |   `DuplicateWithTransform`      |
 | `ctrl - shift - d`              | Duplicate special                  |   `DuplicateSpecial`      |
+| `ctrl - d*`              | Duplicate with Unique names                  |   `duplicate -rc`      |
 | `hold s`                        | Increment \| snap transform        |   `MoveRotateScaleToolToggleSnapMode`      |
 | `hold v`                        | Point snap tool                    |   `dR_pointSnapPress`     |
 | `h`                             | Hide object                        |    `HideUnselectedObjects`     |
